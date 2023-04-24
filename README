@@ -1,6 +1,7 @@
 Simple translator that translate english file into Chinese with chatgpt api.
 
 ## Spec
+- text-davinci-003
 - input file  supported format: txt
 - output file supported format: txt
 
