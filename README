@@ -1,0 +1,12 @@
+Simple translator that translate english file into Chinese with chatgpt api.
+
+## Spec
+- input file  supported format: txt
+- output file supported format: txt
+
+## TODO
+- support markdown format
+- support update to github dirtory
+
+## Details
+Split the input text into chunks, translate each chunk, save the translated chunks as individual files, and then merge the translated chunks back into a single file. 
