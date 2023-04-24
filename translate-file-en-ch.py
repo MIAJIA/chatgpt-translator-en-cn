@@ -4,7 +4,7 @@ import random
 import string
 import re
 
-openai.api_key = "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"
+openai.api_key = "YOUR_API_KEY"
 
 def translate(text):
     response = openai.Completion.create(
