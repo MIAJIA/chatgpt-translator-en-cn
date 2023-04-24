@@ -9,7 +9,7 @@ openai.api_key = "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"
 def translate(text):
     response = openai.Completion.create(
         engine="text-davinci-002",
-        prompt=f"Translate the following English text to Simplified Chinese and format with markdown:\n{text}\n---\nTranslation:",
+        prompt=f"Translate the following English text to Simplified Chinese and output the markdown formatted code:\n{text}\n---\nTranslation:",
         max_tokens=2048,
         temperature=0.7,
     )
